@@ -1,16 +1,62 @@
-//TriangleOne
+//CASE #1
+
+//triangleOne
 
 let base = 10;
 let height = 13;
 
-let TriangleOneArea = (base * height)/2;
+const triangleOneArea = (base * height)/2;
 
-console.log("TriangleOne area equals " + TriangleOneArea + " cm2");
+console.log("triangleOne area equals " + triangleOneArea + " cm2");
 
-//TriangleTwo
+//triangleTwo
 base = 16.5;
 height = 20.3;
 
-let TriangleTwoArea = (base * height)/2;
+const triangleTwoArea = (base * height)/2;
 
-console.log("TriangleTwo area equals " + TriangleTwoArea + " cm2");
+console.log("triangleTwo area equals " + triangleTwoArea + " cm2");
+
+//-------------------***--------------------------
+
+//CASE #2
+
+//triangleThree
+
+base = 16.5;
+height = 20.3;
+
+const triangleThreeArea = (base * height)/2;
+
+console.log("triangleThree area equals " + triangleThreeArea + " cm2");
+
+//triangleFour
+
+base = 20.3;
+height = 16.5;
+
+const triangleFourArea = (base * height)/2;
+
+console.log("triangleFour area equals " + triangleFourArea + " cm2");
+
+//-------------------***--------------------------
+
+//CASE #3
+
+//triangleFive
+
+base = 7.8;
+height = 5.6;
+
+const triangleFiveArea = (base * height)/2;
+
+console.log("triangleFive area equals " + triangleFiveArea + " cm2");
+
+//triangleSix
+
+base = 9.3;
+height = 12.4;
+
+const triangleSixArea = (base * height)/2;
+
+console.log("triangleSix area equals " + triangleSixArea + " cm2");
