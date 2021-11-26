@@ -89,3 +89,8 @@ if (triangleFiveArea > triangleSixArea) {
 } else {
     console.log("The triangle with the biggest area is triangleSix")
 }
+
+/* The reason why the values need to be enclosed in parenthesis is because 
+we need to divide the result of that multiplication between 2 in order to
+get the area of the triangle. If we didn't enclose them in parenthesis, only
+the second value would be divided by 2, making the final result incorrect. */
