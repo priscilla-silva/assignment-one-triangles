@@ -21,7 +21,7 @@ console.log(`triangleOne area equals  ${triangleTwoArea} cm2`);
 
 if (triangleOneArea > triangleTwoArea) {
     console.log("The triangle with the biggest area is triangleOne")
-} else if (triangleOneArea == triangleTwoArea) {
+} else if (triangleOneArea === triangleTwoArea) {
     console.log("Both triangles have the same area")
 } else {
     console.log("The triangle with the biggest area is triangleTwo")
@@ -52,7 +52,7 @@ console.log(`triangleOne area equals  ${triangleFourArea} cm2`);
 //Comparison
 if (triangleThreeArea > triangleFourArea) {
     console.log("The triangle with the biggest area is triangleThree")
-} else if (triangleThreeArea == triangleFourArea) {
+} else if (triangleThreeArea === triangleFourArea) {
     console.log("Both triangles have the same area")
 } else {
     console.log("The triangle with the biggest area is triangleFour")
@@ -84,7 +84,7 @@ console.log(`triangleOne area equals  ${triangleSixArea} cm2`);
 
 if (triangleFiveArea > triangleSixArea) {
     console.log("The triangle with the biggest area is triangleFive")
-} else if (triangleFiveArea == triangleSixArea) {
+} else if (triangleFiveArea === triangleSixArea) {
     console.log("Both triangles have the same area")
 } else {
     console.log("The triangle with the biggest area is triangleSix")
